@@ -12,20 +12,6 @@ font-family: Mistral}
 	font-family: Mistral;
 	font-weight: 100	
 }
-#Infa3 {
-	color: #000000;
-	font-size: 15px;
-	font-style: italic;
-	font-family: Mistral;
-	font-weight: 100	
-}
-#Infa4 {
-	color: #000000;
-	font-size: 15px;
-	font-style: italic;
-	font-family: Mistral;
-	font-weight: 100	
-}
 
 #Infa {
 	color: #000000;
@@ -47,7 +33,7 @@ header{
 
 #inf {
 	background: #C7C7C7;
-	height: 70px;
+	height: 80px;
 	width: 100%
 }
 
@@ -59,16 +45,24 @@ marquee {
 #Window {
 	width: 100%;
 	background: #C7C7C7;
-	height: 280px
+	height: 350px
 }
 
 #Window2 {
 	width: 100%;
 	background: #C7C7C7;
-	height: 40px
+	height: 580px
 }
 
 p {
 	font-family: Mistral;
 	font-size: 20px
+}
+
+#Infa5 {
+	color: #000000;
+	font-size: 15px;
+	font-style: italic;
+	font-family: Mistral;
+	font-weight: 100
 }
