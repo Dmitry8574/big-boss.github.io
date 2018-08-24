@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+<title>Большая шишка</title> <!--Заголовок-->
+	<link rel="shortcut icon" href="Image/favicon.ico" type="image/x-icon">
+ <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+ </script>
+</head>
+
+ <body onLoad="MM_preloadImages('Image/NEZNAU/2.png','Image/NEZNAU/2_1.png','Image/NEZNAU/2_2.png')">
+	 
+	<link rel="stylesheet" href="style.css" type="text/css">
+  <header><img src="Image/logotype.png" alt="Логотип"><a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','Image/NEZNAU/2.png',1)"><img src="Image/NEZNAU/1.png" alt="" width="195" height="102" id="Image5"></a><a href="information.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','Image/NEZNAU/2_1.png',1)"><img src="Image/NEZNAU/1_1.png" alt="" width="195" height="102" id="Image6"></a><a href="blog.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','Image/NEZNAU/2_2.png',1)"><img src="Image/NEZNAU/1_2.png" alt="" width="195" height="102" id="Image7"></a></header>
+ <marquee bgcolor="#C7C7C7" direction="right" >Добро пожаловать! Я рад, что Вы пришли на мой сайт!</marquee> <!--Бегущая строка-->
+	 <br>
+	<img src="Image/scale_original.jpg" alt="Типа это мем"><img src="Image/d4171380c8b83b553ace8b884339b46e.jpg" alt="Это тоже мем, простенький"><br>
+	 <br>
+ <header id="inf"><font size="-1" id="Infa2">© 2018</font>
+	 <a href="https://vk.com/dmitriy_zhutkov"><img src="Image/VK.png" align="right" alt="Мой ВК"></a>
+	 <br>
+	 <font size="-1" id="Infa3">Создатель сайта - Дмитрий Жутков</font>
+	 <br>
+	 <font size="-1" id="Infa4">Версия - 0.0.5</font>
+	 </header>
+</body>
+</html>

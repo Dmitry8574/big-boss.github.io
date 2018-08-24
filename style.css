@@ -1,0 +1,74 @@
+/* CSS Document */
+font{color:#000000;
+	font-family: Mistral
+     }
+h1{color: #C40003;
+font-family: Mistral}
+
+#Infa2 {
+	color: #000000;
+	font-size: 15px;
+	font-style: italic;
+	font-family: Mistral;
+	font-weight: 100	
+}
+#Infa3 {
+	color: #000000;
+	font-size: 15px;
+	font-style: italic;
+	font-family: Mistral;
+	font-weight: 100	
+}
+#Infa4 {
+	color: #000000;
+	font-size: 15px;
+	font-style: italic;
+	font-family: Mistral;
+	font-weight: 100	
+}
+
+#Infa {
+	color: #000000;
+	font-size: 30px;
+	font-weight:100;
+}
+
+body {
+	background-repeat: repeat;
+	background-image: url(Image/carbon_texture.jpg)
+}
+header{
+	width: 100%;
+	background: #C7C7C7;
+	height: 170px	
+}
+
+
+
+#inf {
+	background: #C7C7C7;
+	height: 70px;
+	width: 100%
+}
+
+marquee {
+	font-family: Mistral;
+	font-size: 20px;
+}
+
+#Window {
+	width: 100%;
+	background: #C7C7C7;
+	height: 280px
+}
+
+#Window2 {
+	width: 100%;
+	background: #C7C7C7;
+	height: 40px
+}
+
+p {
+	font-family: Mistral;
+	font-size: 20px
+}
