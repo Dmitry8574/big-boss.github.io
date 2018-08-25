@@ -1,6 +1,7 @@
 /* CSS Document */
 font{color:#000000;
-	font-family: Mistral
+	font-family: Mistral;
+	font-shadow:0 0 6px #6a0404
      }
 h1{color: #C40003;
 font-family: Mistral}
@@ -70,4 +71,9 @@ p {
 
 .center {
 	text-align: center
+}
+
+.Warning {
+	color: #FF0004;
+	font-size: 20px
 }
