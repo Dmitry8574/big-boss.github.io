@@ -26,15 +26,15 @@ body {
 header{
 	width: 100%;
 	background: #C7C7C7;
-	height: 170px	
+	height: auto	
 }
 
 
 
 #inf {
 	background: #C7C7C7;
-	height: 100px;
-	width: 100%
+	height: auto;
+	width: 100%;
 }
 
 marquee {
@@ -45,13 +45,13 @@ marquee {
 #Window {
 	width: 100%;
 	background: #C7C7C7;
-	height: 350px
+	height: auto
 }
 
 #Window2 {
 	width: 100%;
 	background: #C7C7C7;
-	height: 630px
+	height: auto
 }
 
 p {
@@ -65,4 +65,8 @@ p {
 	font-style: italic;
 	font-family: Mistral;
 	font-weight: 100
+}
+
+.center {
+	text-align: center
 }
