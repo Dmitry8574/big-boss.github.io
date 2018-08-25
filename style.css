@@ -17,6 +17,7 @@ font-family: Mistral}
 	color: #000000;
 	font-size: 30px;
 	font-weight:100;
+    text-shadow:0 0 6px #6a0404;
 }
 
 body {
@@ -44,13 +45,13 @@ marquee {
 
 #Window {
 	width: 100%;
-	background: #C7C7C7;
+	background: #ffffff;
 	height: auto
 }
 
 #Window2 {
 	width: 100%;
-	background: #C7C7C7;
+	background: #ffffff;
 	height: auto
 }
 
